@@ -1,5 +1,6 @@
 
 import React from 'react';
+import ShareSocial from './ShareSocial';
 
 const GifItem = ({ title, url, id}) => {
     return (
@@ -9,6 +10,9 @@ const GifItem = ({ title, url, id}) => {
             <img src= { url } alt={title}/>
             <p> { title } </p>
 
+            <ShareSocial 
+                url={ url }
+            />
             </div>
               
     )

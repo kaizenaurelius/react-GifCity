@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 export const GifExpertApp = () => {
 
     
-    const [ categories, setCategories ] = useState([ 'One Punch' ])
+    const [ categories, setCategories ] = useState([ 'Aang' ])
 
     const onAddCategory = ( newCategory ) => {
         if ( categories.includes( newCategory ) ) return;
