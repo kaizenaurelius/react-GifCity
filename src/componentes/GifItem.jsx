@@ -1,4 +1,4 @@
-
+import  PropTypes  from 'prop-types';
 import React from 'react';
 import ShareSocial from './ShareSocial';
 
@@ -18,5 +18,11 @@ const GifItem = ({ title, url, id}) => {
     )
 
 };
+
+GifItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+}
+
 
 export default GifItem;
